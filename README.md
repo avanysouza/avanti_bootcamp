@@ -1,5 +1,11 @@
 # Terraform + AWS + Docker
 
+## Descrição do Projeto
+
+Esse repositório está relacionado á minha participação no Bootcamp em DevOps da Escola Atlântico.
+
+Objetivo: configurar e executar pipelines automatizados usando containers, GitLab Runner e realizar o provisionamento da infraestrutura na AWS através do Terraform.
+
 ## Pré-requisitos:
 
 - [Docker](https://www.docker.com) - [Instalação Docker Linux](https://docs.docker.com/engine/install/ubuntu/) - (Necessário instalar no seu ambiente para executar aplicação local)
