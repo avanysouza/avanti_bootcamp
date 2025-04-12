@@ -58,10 +58,6 @@ terraform apply
 ```
 --------------
 
-## Authors
-
-* **Avany Souza**
-
 ## Telas
 **Instancia provisionada na AWS através do Terraform:**
 ![image](https://github.com/user-attachments/assets/35fa95b0-4168-456c-876a-c9993c0816a7)
@@ -74,3 +70,10 @@ terraform apply
 ![image](https://github.com/user-attachments/assets/a0ca7dcc-e2b4-4d9d-837f-03f8d6d1e485)
 
 ![image](https://github.com/user-attachments/assets/1fbaa987-98a8-4dfe-a590-dbddd77c7ca5)
+
+## Notas
+
+Esse projeto foi realizado no GitLab, entretanto para viabilizar a consulta pública, foi criado esse repositório no GitHub.
+
+![image](https://github.com/user-attachments/assets/4b42f019-48f8-4ea4-9b2c-76b73dfe4b40)
+
