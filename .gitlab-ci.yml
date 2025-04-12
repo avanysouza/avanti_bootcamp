@@ -1,0 +1,30 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  VERSION: "2.0-app"
+
+create-images:
+  stage: build
+  tags:
+    - AWS
+    - DOCKER
+  before_script:
+    - docker login -u $REGISTRY_USER -p $REGISTRY_PASS
+  script:
+    - docker build -t avanysouza/avantibootcamp:latest app/.
+    - docker push avanysouza/avantibootcamp:latest
+  
+run_docker:
+  stage: deploy
+  tags: 
+    - AWS
+    - DOCKER
+  before_script:
+    - docker rm -f app-docker
+
+  script:
+    - docker pull avanysouza/avantibootcamp:latest
+    - docker run -dti -p 80:80 --name app-docker avanysouza/avantibootcamp:latest
+#fim
