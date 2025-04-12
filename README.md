@@ -60,4 +60,15 @@ terraform apply
 
 ## Authors
 
-* **Luiz Carlos Nascimento Junior**
+* **Avany Souza**
+
+## Telas
+**Instancia provisionada na AWS através do Terraform:**
+![AWS](image.png)
+
+**Pipeline no GitLab**
+![Pipeline GitLab](image-1.png)
+
+**Acesso ao IP publico da instância para visualizar o html:**
+![alt text](image-2.png)
+![alt text](image-3.png)
