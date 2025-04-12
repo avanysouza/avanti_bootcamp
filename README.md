@@ -64,11 +64,13 @@ terraform apply
 
 ## Telas
 **Instancia provisionada na AWS através do Terraform:**
-![AWS](image.png)
+![image](https://github.com/user-attachments/assets/35fa95b0-4168-456c-876a-c9993c0816a7)
+
 
 **Pipeline no GitLab**
-![Pipeline GitLab](image-1.png)
+![image](https://github.com/user-attachments/assets/30c3ac24-6cff-4bfa-a8cc-5a1e769c61dd)
 
 **Acesso ao IP publico da instância para visualizar o html:**
-![alt text](image-2.png)
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/a0ca7dcc-e2b4-4d9d-837f-03f8d6d1e485)
+
+![image](https://github.com/user-attachments/assets/1fbaa987-98a8-4dfe-a590-dbddd77c7ca5)
